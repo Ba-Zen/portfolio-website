@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -154,6 +154,33 @@ input, select, textarea {
 	body {
 		background-color: #ffffff;
 		color: #000000;
+	}
+	.content h1 .txt-type {
+		font-family: 'Raleway', sans-serif;
+		height: 100vh;
+		background: #333;
+		color: #ccc;
+		overflow: hidden;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		padding: 0 3rem;
+	}
+
+	.content  {
+		font-weight: 200;
+		margin: 0.4rem;
+		font-size: 3.5rem;
+	}
+	
+	.content p{
+		font-size: 2rem;
+	}
+	.txt-type > .txt {
+		border-right: 0.2rem solid #777;
 	}
 
 	body, input, select, textarea {
